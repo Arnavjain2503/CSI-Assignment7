@@ -98,14 +98,21 @@ All endpoints were tested using Postman, including:
 
 | Operation                    | Screenshot                                        |
 | ---------------------------- | ------------------------------------------------- |
+| ✅ **Get JWT Token**          | ![Update](screenshots/Screenshot%20\(76\).png)   |
 | ✅ **Get Access Denied**      | ![Found](screenshots/Screenshot%20\(77\).png)     |
-| ✅ **Adding JWT Token**            | ![GET by ID](screenshots/Screenshot%20\(78\).png) |
+| ✅ **Adding JWT Token**       | ![GET by ID](screenshots/Screenshot%20\(78\).png) |
 | ✅ **Add Access Denied**      | ![Created](screenshots/Screenshot%20\(79\).png)   |
-| ✅ **Adding JWT Token**          | ![Create](screenshots/Screenshot%20\(80\).png)    |
-| ✅ **PUT update product**     | ![Update](screenshots/Screenshot%20\(76\).png)   |
-| ✅ **Adding JWT Token**       | ![GET all](screenshots/Screenshot%20\(81\).png)   |
+| ✅ **Adding JWT Token**       | ![Create](screenshots/Screenshot%20\(80\).png)    |
+| ✅ **Product Added**       | ![GET all](screenshots/Screenshot%20\(81\).png)   |
 
-## 📌 Notes
+### 💡 Notes:
+
+- **JWT Token**: For each request, make sure you first **login** to get the JWT token.  
+  After you have the token, include it in the **Authorization** header as:
+  ```plaintext
+  Authorization: Bearer <your-jwt-token-here>
+- **Access Denied**: If the token is not provided or is invalid, you will receive an Access Denied message (shown in the screenshots above).
+
 - Data is stored in-memory (products.js) for simplicity.
 
 - You can easily replace the in-memory store with a real database like MongoDB or MySQL.
