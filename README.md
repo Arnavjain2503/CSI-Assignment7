@@ -99,14 +99,14 @@ All endpoints were tested using Postman, including:
 
 | Operation                 | Screenshot                                                  |
 |---------------------------|------------------------------------------------------------ |
-| ✅ GET all products        | ![GET all](screenshots/Screenshot (81).png)                |  
-| ✅ POST Add new product    | ![Create](screenshots/Screenshot (81).png)                 |
-| ✅ POST response           | ![Created](screenshots/Screenshot (81).png)                | 
-| ✅ GET product by ID       | ![GET by ID](screenshots/Screenshot (81).png)              |
-| ✅ Product found response  | ![Found](screenshots/Screenshot (81).png)                  |
-| ✅ PUT update product      | ![Update](screenshots/Screenshot (81).png)                 |
-| ✅ PUT response            | ![Updated](screenshots/Screenshot (81).png)                |
-| ✅ DELETE product request  | ![Delete](screenshots/Screenshot (81).png)                 |
+| ✅ GET all products        | ![GET all](screenshots/Screenshot(81).png)                |  
+| ✅ POST Add new product    | ![Create](screenshots/Screenshot(80).png)                 |
+| ✅ POST response           | ![Created](screenshots/Screenshot(79).png)                | 
+| ✅ GET product by ID       | ![GET by ID](screenshots/Screenshot(78).png)              |
+| ✅ Product found response  | ![Found](screenshots/Screenshot(77).png)                  |
+| ✅ PUT update product      | ![Update](screenshots/Screenshot(76).png)                 |
+| ✅ PUT response            | ![Updated](screenshots/Screenshot(75).png)                |
+| ✅ DELETE product request  | ![Delete](screenshots/Screenshot(74).png)                 |
 
 
 ## 📌 Notes
