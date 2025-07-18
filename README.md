@@ -98,10 +98,10 @@ All endpoints were tested using Postman, including:
 
 | Operation                    | Screenshot                                        |
 | ---------------------------- | ------------------------------------------------- |
-| ✅ **Add Access Denied**      | ![Created](screenshots/Screenshot%20\(79\).png)   |
 | ✅ **Create Access Denied**   | ![Found](screenshots/Screenshot%20\(77\).png)     |
-| ✅ **GET product**            | ![GET by ID](screenshots/Screenshot%20\(78\).png) |
 | ✅ **Adding JWT Token**       | ![GET all](screenshots/Screenshot%20\(81\).png)   |
+| ✅ **GET product**            | ![GET by ID](screenshots/Screenshot%20\(78\).png) |
+| ✅ **Add Access Denied**      | ![Created](screenshots/Screenshot%20\(79\).png)   |
 | ✅ **Added product**          | ![Create](screenshots/Screenshot%20\(80\).png)    |
 | ✅ **PUT update product**     | ![Update](screenshots/Screenshot%20\(746\).png)   |
 
