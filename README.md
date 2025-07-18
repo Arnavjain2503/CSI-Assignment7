@@ -96,19 +96,18 @@ All endpoints were tested using Postman, including:
 
 - ✅ Error handling for invalid credentials and token expiration.
 
-## 📸 Screenshots
-Below are screenshots demonstrating each tested operation:
 
-- ✅ GET all products	
-- ✅ GET product by ID	
-- ✅ POST new product	
-- ✅ POST response (Created)	
-- ✅ PUT update product	
-- ✅ PUT response (Updated)	
-- ✅ DELETE product request	
-- ✅ DELETE confirmation	
-- ✅ Product found response	
-- ✅ Access denied without JWT	
+| Operation                 | Screenshot                                                  |
+|---------------------------|------------------------------------------------------------ |
+| ✅ GET all products        | ![GET all](screenshots/Screenshot (81).png)                |  
+| ✅ POST Add new product    | ![Create](screenshots/Screenshot (81).png)                 |
+| ✅ POST response           | ![Created](screenshots/Screenshot (81).png)                | 
+| ✅ GET product by ID       | ![GET by ID](screenshots/Screenshot (81).png)              |
+| ✅ Product found response  | ![Found](screenshots/Screenshot (81).png)                  |
+| ✅ PUT update product      | ![Update](screenshots/Screenshot (81).png)                 |
+| ✅ PUT response            | ![Updated](screenshots/Screenshot (81).png)                |
+| ✅ DELETE product request  | ![Delete](screenshots/Screenshot (81).png)                 |
+
 
 ## 📌 Notes
 - Data is stored in-memory (products.js) for simplicity.
