@@ -77,8 +77,10 @@ The server will be available at:
   "name": "Wireless Mouse",
   "price": 24.99
 }
+```
 ```bash
 ✅ Login Payload
+```
 ```bash
 {
   "username": "admin",
@@ -97,17 +99,16 @@ All endpoints were tested using Postman, including:
 ## 📸 Screenshots
 Below are screenshots demonstrating each tested operation:
 
-Operation	Screenshot
-✅ GET all products	
-✅ GET product by ID	
-✅ POST new product	
-✅ POST response (Created)	
-✅ PUT update product	
-✅ PUT response (Updated)	
-✅ DELETE product request	
-✅ DELETE confirmation	
-✅ Product found response	
-✅ Access denied without JWT	
+- ✅ GET all products	
+- ✅ GET product by ID	
+- ✅ POST new product	
+- ✅ POST response (Created)	
+- ✅ PUT update product	
+- ✅ PUT response (Updated)	
+- ✅ DELETE product request	
+- ✅ DELETE confirmation	
+- ✅ Product found response	
+- ✅ Access denied without JWT	
 
 ## 📌 Notes
 - Data is stored in-memory (products.js) for simplicity.
