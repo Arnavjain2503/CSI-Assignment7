@@ -98,12 +98,12 @@ All endpoints were tested using Postman, including:
 
 | Operation                    | Screenshot                                        |
 | ---------------------------- | ------------------------------------------------- |
-| ✅ **Create Access Denied**   | ![Found](screenshots/Screenshot%20\(77\).png)     |
-| ✅ **Adding JWT Token**       | ![GET all](screenshots/Screenshot%20\(81\).png)   |
-| ✅ **GET product**            | ![GET by ID](screenshots/Screenshot%20\(78\).png) |
+| ✅ **Get Access Denied**      | ![Found](screenshots/Screenshot%20\(77\).png)     |
+| ✅ **Adding JWT Token**            | ![GET by ID](screenshots/Screenshot%20\(78\).png) |
 | ✅ **Add Access Denied**      | ![Created](screenshots/Screenshot%20\(79\).png)   |
-| ✅ **Added product**          | ![Create](screenshots/Screenshot%20\(80\).png)    |
-| ✅ **PUT update product**     | ![Update](screenshots/Screenshot%20\(746\).png)   |
+| ✅ **Adding JWT Token**          | ![Create](screenshots/Screenshot%20\(80\).png)    |
+| ✅ **PUT update product**     | ![Update](screenshots/Screenshot%20\(76\).png)   |
+| ✅ **Adding JWT Token**       | ![GET all](screenshots/Screenshot%20\(81\).png)   |
 
 ## 📌 Notes
 - Data is stored in-memory (products.js) for simplicity.
